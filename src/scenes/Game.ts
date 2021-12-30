@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import SceneKeys from '../consts/SceneKeys';
 import TextureKeys from '../consts/TextureKeys';
+import AnimationKeys from '../consts/AnimationKeys'
 
 export default class Demo extends Phaser.Scene {
   private background!: Phaser.GameObjects.TileSprite;
@@ -22,7 +23,8 @@ export default class Demo extends Phaser.Scene {
     .setOrigin(0, 0)
     .setScrollFactor(0, 0);
 
-    this.hero = this.physics.add.sprite(width * 0.5, height, TextureKeys.Hero);
+    this.hero = this.physics.add.sprite(width * 0.5, height, TextureKeys.SpaceMonkey)
+    .play(AnimationKeys.SpaceMonkeyFly);
     this.hero.setCollideWorldBounds(true);
 
     this.hero.setVelocityY(300);

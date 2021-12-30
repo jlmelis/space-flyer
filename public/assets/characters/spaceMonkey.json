@@ -1,0 +1,95 @@
+{
+	"frames": {
+		"spacemonkey_dead01.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 118,
+				"h": 158
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 118,
+				"h": 158
+			},
+			"sourceSize": {
+				"w": 118,
+				"h": 158
+			}
+		},
+		"spacemonkey_dead02.png": {
+			"frame": {
+				"x": 121,
+				"y": 1,
+				"w": 118,
+				"h": 158
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 118,
+				"h": 158
+			},
+			"sourceSize": {
+				"w": 118,
+				"h": 158
+			}
+		},
+		"spacemonkey_fly01.png": {
+			"frame": {
+				"x": 241,
+				"y": 1,
+				"w": 118,
+				"h": 158
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 118,
+				"h": 158
+			},
+			"sourceSize": {
+				"w": 118,
+				"h": 158
+			}
+		},
+		"spacemonkey_fly02.png": {
+			"frame": {
+				"x": 361,
+				"y": 1,
+				"w": 118,
+				"h": 158
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 118,
+				"h": 158
+			},
+			"sourceSize": {
+				"w": 118,
+				"h": 158
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 480,
+			"h": 160
+		},
+		"scale": "1"
+	}
+}
