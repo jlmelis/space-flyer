@@ -58,5 +58,12 @@ export default class Demo extends Phaser.Scene {
     else {
       this.hero.setVelocityX(0);
     }
+
+    // Touch enable
+    // TODO: account for sprite at edge of screen to avoid the visual glitch
+    let pointer = this.input.activePointer;
+    if(pointer.isDown) {
+      this.hero.setX(pointer.x);
+    }
   }
 }
